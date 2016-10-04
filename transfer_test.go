@@ -18,9 +18,9 @@ func TestTransfer(t *testing.T) {
 
   fmt.Println(filename)
 
-  // TODO: Instantiate client
+  // TODO: Start server
 
-  // TODO: Instantiate server
+  // TODO: Send via client
 
   // TODO: Open and Chunkize temp file. Calculate sha256
 
