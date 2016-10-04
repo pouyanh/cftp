@@ -1,0 +1,7 @@
+version: '2'
+services:
+  app:
+    restart: on-failure
+    build: .
+    volumes:
+      - .:/go/src/github.com/pouyanh/chunked-file-transfer
